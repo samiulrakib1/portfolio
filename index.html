@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +10,14 @@
 </head>
 <body>
 
+  <!-- Navbar -->
   <header class="hero-section" id="home">
     <nav class="navbar">
       <div class="logo">Samiul Islam</div>
       <ul class="nav-links">
         <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
         <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
         <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
         <li><a href="#project"><i class="fas fa-briefcase"></i> Project</a></li>
         <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
@@ -23,10 +26,11 @@
 
     <div class="hero-content">
       <h1>Samiul Islam Rakib</h1>
-      <p>I’m a <span class="typing">undergraduate student of CSE at UAP</span></p>
+      <p>I’m an <span class="typing">undergraduate CSE student at UAP</span></p>
     </div>
   </header>
 
+  <!-- About Section -->
   <section class="about-section" id="about">
     <div class="container">
       <h2>About</h2>
@@ -48,61 +52,79 @@
         </div>
         <div class="about-text">
           <p>
-            I am currently an undergraduate student in the Department of Computer Science and Engineering (CSE) at the University of Asia Pacific (UAP). I have already completed projects in Java and Database Management. I am familiar with HTML, CSS and C.
+            I am currently an undergraduate student in the Department of Computer Science and Engineering (CSE) at the University of Asia Pacific (UAP). I have already completed projects in Java and SQL. I am familiar with HTML, CSS and C.I'm continuously learning and exploring new tools and technologies to improve my skills.  
+Outside of coding, I enjoy problem solving and working on real-world challenges.
           </p>
           <div class="about-info">
-            <ul>
-              <li><strong>Birthday:</strong> 1 September 2003</li>
-              <li><strong>Phone:</strong> +880 1234-567890</li>
-              <li><strong>City:</strong> Dhanmondi, Dhaka, Bangladesh</li>
-              <li><strong>Age:</strong> 22</li>
-              <li><strong>Degree:</strong> BSc in CSE</li>
-              <li><strong>Email:</strong> samiulislamrakib38@gmail.com</li>
-              <li><strong>Freelance:</strong> Unavailable</li>
-            </ul>
+           <ul>
+         <li><strong>Birthday:</strong> 1 September 2003</li>
+        <li><strong>Phone:</strong> 
+    <a href="tel:+8801234567890"> +880 1305158822</a>
+  </li>
+         <li><strong>City:</strong> Dhanmondi, Dhaka, Bangladesh</li>
+         <li><strong>Age:</strong> 22</li>
+         <li><strong>Email:</strong> 
+          <a href="mailto:samiulislamrakib38@gmail.com"> samiulislamrakib38@gmail.com</a>
+  </li>
+  <li><strong>Freelance:</strong> Unavailable</li>
+</ul>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Education Section -->
+  <section class="education-section" id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <p class="section-subtitle">My academic background</p>
+      <ul class="education-list">
+        <li><strong>School:</strong> Palashbari SM Pilot Govt. High School (SSC GPA: 5.00)</li>
+        <li><strong>College:</strong> Dhaka City College (HSC GPA: 5.00)</li>
+        <li><strong>University:</strong> University of Asia Pacific (BSc in CSE - Ongoing)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
   <section class="skills-section" id="skills">
     <div class="container">
       <h2>Skills</h2>
       <p class="section-subtitle">My technical level</p>
       <div class="skills-grid">
         <div class="skill">
-          <h4>HTML</h4>
+          <h4><img src="html.png" alt="HTML Logo" class="skill-icon"> HTML</h4>
           <div class="progress-bar">
             <div class="progress" style="width: 50%;">50%</div>
           </div>
         </div>
         <div class="skill">
-          <h4>CSS</h4>
+          <h4><img src="c++.png" alt="C++ Logo" class="skill-icon"> C++</h4>
           <div class="progress-bar">
             <div class="progress" style="width: 55%;">55%</div>
           </div>
         </div>
         <div class="skill">
-          <h4>Java</h4>
+          <h4><img src="java.png" alt="Java Logo" class="skill-icon"> Java</h4>
           <div class="progress-bar">
             <div class="progress" style="width: 75%;">75%</div>
           </div>
         </div>
         <div class="skill">
-          <h4>C</h4>
+          <h4><img src="c.png" alt="C Logo" class="skill-icon"> C</h4>
           <div class="progress-bar">
             <div class="progress" style="width: 70%;">70%</div>
           </div>
         </div>
         <div class="skill">
-          <h4>DataBase Management System</h4>
+          <h4><img src="sql.png" alt="SQL Logo" class="skill-icon"> SQL</h4>
           <div class="progress-bar">
             <div class="progress" style="width: 80%;">80%</div>
           </div>
         </div>
         <div class="skill">
-          <h4>Git & GitHub</h4>
+          <h4><img src="git.png" alt="GitHub Logo" class="skill-icon"> Git & GitHub</h4>
           <div class="progress-bar">
             <div class="progress" style="width: 15%;">15%</div>
           </div>
@@ -111,28 +133,36 @@
     </div>
   </section>
 
-  <section class="projects-section" id="project">
-    <div class="container">
-      <h2>Projects</h2>
-      <p class="section-subtitle">Some of my recent work</p>
-      <div class="projects-container">
-        <div class="project-card">
-          <h3>Volunteer Management System</h3>
-          <p class="project-tech">Language: Java</p>
-          <p class="project-desc">
-            A Java-based system that helps manage volunteer registration, event scheduling, and activity tracking for NGOs or student organizations.
-          </p>
-        </div>
-        <div class="project-card">
-          <h3>Financial Management System</h3>
-          <p class="project-tech">Tech: MySQL, SQL, ER Diagram</p>
-          <p class="project-desc">
-            A database project that handles income, expenses, budgeting, and financial reporting. Designed using ER modeling and normalized tables.
-          </p>
-        </div>
+<section class="projects-section" id="project">
+  <div class="container">
+    <h2>Projects</h2>
+    <p class="section-subtitle">Some of my recent work</p>
+    <div class="projects-container">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>Volunteer Management System</h3>
+        <p class="project-tech">Language: Java</p>
+        <p class="project-desc">
+          A Java-based system that helps manage volunteer registration, event scheduling, and activity tracking for NGOs or student organizations.
+        </p>
+        <a href="https://github.com/A-Fera/java-project" target="_blank" class="view-btn">View Project</a>
       </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>Financial Management System</h3>
+        <p class="project-tech">Tech: MySQL, SQL, ER Diagram</p>
+        <p class="project-desc">
+          A database project that handles income, expenses, budgeting, and financial reporting. Designed using ER modeling and normalized tables.
+        </p>
+        <a href="https://github.com/A-Fera/Financial-Management-System-SQL" target="_blank" class="view-btn">View Project</a>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
 
   <section id="contact" class="contact-section">
     <div class="container">
@@ -142,10 +172,20 @@
         <div class="contact-info">
           <h3>Contact Info</h3>
           <ul>
-            <li><i class="fas fa-phone"></i> +880 1234-567890</li>
-            <li><i class="fas fa-envelope"></i> samiulislamrakib38@gmail.com</li>
-            <li><i class="fas fa-map-marker-alt"></i> Dhanmondi, Dhaka, Bangladesh</li>
-          </ul>
+  <li>
+    <i class="fas fa-phone"></i> 
+    <a href="tel:+8801305158822">+880 1305158822</a>
+  </li>
+  <li>
+    <i class="fas fa-envelope"></i> 
+    <a href="mailto:samiulislamrakib38@gmail.com">samiulislamrakib38@gmail.com</a>
+  </li>
+  <li>
+    <i class="fas fa-map-marker-alt"></i> 
+    Dhanmondi, Dhaka, Bangladesh
+  </li>
+</ul>
+
           <div class="social-icons contact-social-icons">
             <a href="https://www.facebook.com/share/1CLFymp3j8/" target="_blank" title="Facebook">
               <i class="fab fa-facebook-f"></i>
